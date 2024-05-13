@@ -1,0 +1,57 @@
+
+body{
+  background-color: antiquewhite;
+}
+.buttons{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+
+button{
+  cursor: pointer;
+}
+
+#subscribe-button{
+  background-color: red;
+  color: white;
+  border: none;
+  height: 36px;
+  width: 115px;
+  border-radius: 15px;
+  margin-left: 150px;
+  
+
+}
+
+#join-button{
+  background-color: rgb(94, 148, 209);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 115px;
+  border-radius: 15px;
+  
+}
+
+#tweet-button{
+  background-color: plum;
+  color: white;
+  border: none;
+  height: 36px;
+  width: 115px;
+  border-radius: 15px;
+  margin-left: 150px;
+ 
+  
+}
+#undo-button{
+  background-color: green;
+  color: white;
+  border: none;
+  height: 36px;
+  width: 115px;
+  border-radius: 15px;
+ 
+  
+}
